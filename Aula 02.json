@@ -1,0 +1,84 @@
+{
+    "aulas": [
+        {
+          "professor": {
+            "nome": "Lucas"
+          },
+          "assunto": "Programacao Orientada a Objetos",
+          "alunos": [
+            {
+                "nome": "Maria"
+            },
+            {
+                "nome": "Pedro"
+            },
+            {
+                "nome": "Vinicius"
+            },
+            {
+                "nome": "Wesley"
+            }
+          ] 
+        },
+        {
+            "professor": {
+            "nome": "Jonas"
+          },
+          "assunto": "Banco de Dados",
+          "alunos": [
+            {
+                "nome": "Marcus"
+            },
+            {
+                "nome": "John"
+            },
+            {
+                "nome": "Pedro"
+            },
+            {
+                "nome": "Gabriel"
+            }
+          ] 
+        },
+        {
+            "professor": {
+            "nome": "Bruno"
+          },
+          "assunto": "Eletronica Digital",
+          "alunos": [
+            {
+                "nome": "Otavio"
+            },
+            {
+                "nome": "Luis"
+            },
+            {
+                "nome": "Leandro"
+            },
+            {
+                "nome": "Anna"
+            }
+          ] 
+        },
+        {
+            "professor": {
+            "nome": "Renan"
+          },
+          "assunto": "Calculo",
+          "alunos": [
+            {
+                "nome": "Samuel"
+            },
+            {
+                "nome": "Pablo"
+            },
+            {
+                "nome": "Mayra"
+            },
+            {
+                "nome": "Daniel"
+            }
+          ] 
+        }
+    ]
+}
