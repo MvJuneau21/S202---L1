@@ -1,0 +1,39 @@
+[
+    {
+        "_id": {
+            "$oid": "66ccd7ebe6a05e2f0a4a351d"
+        },
+        "id": 31,
+        "num": "031",
+        "name": "Nidoqueen",
+        "img": "http://www.serebii.net/pokemongo/pokemon/031.png",
+        "type": [
+            "Poison",
+            "Ground"
+        ],
+        "height": "1.30 m",
+        "weight": "60.0 kg",
+        "candy": "Nidoran \u00e2\u2122\u20ac (Female) Candy",
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.012,
+        "avg_spawns": 1.2,
+        "spawn_time": "12:35",
+        "multipliers": null,
+        "weaknesses": [
+            "Water",
+            "Ice",
+            "Ground",
+            "Psychic"
+        ],
+        "prev_evolution": [
+            {
+                "num": "029",
+                "name": "Nidoran(Female)"
+            },
+            {
+                "num": "030",
+                "name": "Nidorina"
+            }
+        ]
+    }
+]

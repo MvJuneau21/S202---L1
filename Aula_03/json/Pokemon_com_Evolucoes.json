@@ -1,0 +1,193 @@
+[
+    {
+        "_id": {
+            "$oid": "66ccd7ebe6a05e2f0a4a353d"
+        },
+        "id": 63,
+        "num": "063",
+        "name": "Abra",
+        "img": "http://www.serebii.net/pokemongo/pokemon/063.png",
+        "type": [
+            "Psychic"
+        ],
+        "height": "0.89 m",
+        "weight": "19.5 kg",
+        "candy": "Abra Candy",
+        "candy_count": 25,
+        "egg": "5 km",
+        "spawn_chance": 0.42,
+        "avg_spawns": 42,
+        "spawn_time": "04:30",
+        "multipliers": [
+            1.36,
+            1.95
+        ],
+        "weaknesses": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ],
+        "next_evolution": [
+            {
+                "num": "064",
+                "name": "Kadabra"
+            },
+            {
+                "num": "065",
+                "name": "Alakazam"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66ccd7ebe6a05e2f0a4a353e"
+        },
+        "id": 64,
+        "num": "064",
+        "name": "Kadabra",
+        "img": "http://www.serebii.net/pokemongo/pokemon/064.png",
+        "type": [
+            "Psychic"
+        ],
+        "height": "1.30 m",
+        "weight": "56.5 kg",
+        "candy": "Abra Candy",
+        "candy_count": 100,
+        "egg": "Not in Eggs",
+        "spawn_chance": 0.027,
+        "avg_spawns": 2.7,
+        "spawn_time": "11:25",
+        "multipliers": [
+            1.4
+        ],
+        "weaknesses": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ],
+        "prev_evolution": [
+            {
+                "num": "063",
+                "name": "Abra"
+            }
+        ],
+        "next_evolution": [
+            {
+                "num": "065",
+                "name": "Alakazam"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66ccd7ebe6a05e2f0a4a354d"
+        },
+        "id": 79,
+        "num": "079",
+        "name": "Slowpoke",
+        "img": "http://www.serebii.net/pokemongo/pokemon/079.png",
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "height": "1.19 m",
+        "weight": "36.0 kg",
+        "candy": "Slowpoke Candy",
+        "candy_count": 50,
+        "egg": "5 km",
+        "spawn_chance": 1.05,
+        "avg_spawns": 105,
+        "spawn_time": "07:12",
+        "multipliers": [
+            2.21
+        ],
+        "weaknesses": [
+            "Electric",
+            "Grass",
+            "Bug",
+            "Ghost",
+            "Dark"
+        ],
+        "next_evolution": [
+            {
+                "num": "080",
+                "name": "Slowbro"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66ccd7ebe6a05e2f0a4a355e"
+        },
+        "id": 96,
+        "num": "096",
+        "name": "Drowzee",
+        "img": "http://www.serebii.net/pokemongo/pokemon/096.png",
+        "type": [
+            "Psychic"
+        ],
+        "height": "0.99 m",
+        "weight": "32.4 kg",
+        "candy": "Drowzee Candy",
+        "candy_count": 50,
+        "egg": "5 km",
+        "spawn_chance": 3.21,
+        "avg_spawns": 321,
+        "spawn_time": "01:51",
+        "multipliers": [
+            2.08,
+            2.09
+        ],
+        "weaknesses": [
+            "Bug",
+            "Ghost",
+            "Dark"
+        ],
+        "next_evolution": [
+            {
+                "num": "097",
+                "name": "Hypno"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66ccd7ebe6a05e2f0a4a3564"
+        },
+        "id": 102,
+        "num": "102",
+        "name": "Exeggcute",
+        "img": "http://www.serebii.net/pokemongo/pokemon/102.png",
+        "type": [
+            "Grass",
+            "Psychic"
+        ],
+        "height": "0.41 m",
+        "weight": "2.5 kg",
+        "candy": "Exeggcute Candy",
+        "candy_count": 50,
+        "egg": "5 km",
+        "spawn_chance": 0.78,
+        "avg_spawns": 78,
+        "spawn_time": "09:09",
+        "multipliers": [
+            2.7,
+            3.18
+        ],
+        "weaknesses": [
+            "Fire",
+            "Ice",
+            "Poison",
+            "Flying",
+            "Bug",
+            "Ghost",
+            "Dark"
+        ],
+        "next_evolution": [
+            {
+                "num": "103",
+                "name": "Exeggutor"
+            }
+        ]
+    }
+]
