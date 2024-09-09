@@ -1,0 +1,23 @@
+[
+    {
+        "_id": 2,
+        "titulo": "Harry Potter and the Philosopher's Stone",
+        "autor": "J.K. Rowling",
+        "ano": 1997,
+        "preco": 35.0
+    },
+    {
+        "_id": 3,
+        "titulo": "Harry Potter e a Camara Secreta",
+        "autor": "J.K. Rowling",
+        "ano": 1998,
+        "preco": 30.0
+    },
+    {
+        "_id": 1,
+        "titulo": "Naruto Vol.1",
+        "autor": "Masashi Kishimoto",
+        "ano": 2000,
+        "preco": 30.0
+    }
+]
