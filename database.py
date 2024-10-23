@@ -7,7 +7,6 @@ class GameDatabase:
     def close(self):
         self.driver.close()
     
-    # Player methods
     def create_player(self, player_id, name):
         with self.driver.session() as session:
             session.write_transaction(self._create_player, player_id, name)
@@ -56,18 +55,15 @@ class GameDatabase:
         result = tx.run("MATCH (p:Player) RETURN p.id AS id, p.name AS name")
         return result
 
-    # Match methods
     def create_match(self, match_id, player_ids, result):
         with self.driver.session() as session:
             session.write_transaction(self._create_match, match_id, player_ids, result)
 
     @staticmethod
     def _create_match(tx, match_id, player_ids, result):
-        # Cria a partida
         tx.run("CREATE (m:Match {id: $match_id, result: $result})",
                match_id=match_id, result=result)
 
-        # Conecta os jogadores à partida
         for player_id in player_ids:
             tx.run("MATCH (p:Player {id: $player_id}), (m:Match {id: $match_id}) "
                    "MERGE (p)-[:PARTICIPATED_IN]->(m)",
